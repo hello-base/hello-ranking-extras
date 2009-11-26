@@ -23,15 +23,13 @@ img:hover {
     border-color: #eee; 
 }
 
-header {
-    text-indent: -9999px;
-}
 
 .page {
     padding: 50px 0 0;
 }
-
-
+header {
+    text-indent: -9999px;
+}
 li.grid_4 {
     margin: 0 10px 20px;
     position: relative;
@@ -64,4 +62,16 @@ li.grid_4 a {
 }
 li.grid_4 a:hover {
     background: rgba(0,0,0,0.4);
+}
+p {
+    color: #999;
+    font-size: 11px;
+    text-align: center;
+}
+p.presented a {
+    background: url('../../static/images/ninesmile/bkg_presented.png') no-repeat;
+    display: block;
+    height: 60px;
+    margin: 0 0 40px;
+    text-indent: -9999px;
 }
