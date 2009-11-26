@@ -1,5 +1,5 @@
 body {
-    background: #fff url('../../static/images/ninesmile/bkg_body.png');
+    background: #fff url('../../static/images/ninesmile/bkg_body.png') no-repeat top center;
     color: #333;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 12px;
@@ -14,8 +14,13 @@ ul {
     padding: 0;
 }
 img {
-    border: 1px solid #eee;
-    padding: 4px;
+    background: #fff;
+    border: 4px solid #f7f7f7;
+    padding: 1px;
+    -webkit-transition: all 250ms linear;
+}
+img:hover {
+    border-color: #eee; 
 }
 
 header {
@@ -55,7 +60,8 @@ li.grid_4 a {
     font-size: 11px;
     font-weight: bold;
     padding: 4px 5px;
+    -webkit-transition: all 250ms linear;
 }
 li.grid_4 a:hover {
-
+    background: rgba(0,0,0,0.4);
 }
