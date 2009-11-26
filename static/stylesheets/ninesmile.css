@@ -1,0 +1,61 @@
+body {
+    background: #fff url('../../static/images/ninesmile/bkg_body.png');
+    color: #333;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    text-shadow: 0 0 -1px #000;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+img {
+    border: 1px solid #eee;
+    padding: 4px;
+}
+
+header {
+    text-indent: -9999px;
+}
+
+.page {
+    padding: 50px 0 0;
+}
+
+
+li.grid_4 {
+    margin: 0 10px 20px;
+    position: relative;
+}
+li.grid_4 h1 {
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+    font-size: 18px;
+    left: 15px;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    top: 15px;
+}
+li.grid_4 ul {
+    bottom: 20px;
+    left: 15px;
+    position: absolute;
+}
+li.grid_4 li {
+    display: inline;
+}
+li.grid_4 a {
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 4px 5px;
+}
+li.grid_4 a:hover {
+
+}
